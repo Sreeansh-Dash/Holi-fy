@@ -64,12 +64,6 @@ streamlit run app.py
 
 ---
 
-## ☁️ Deploy on Streamlit Cloud
-
-1. Push this repo to GitHub.
-2. Go to [share.streamlit.io](https://share.streamlit.io).
-3. Click **"New app"**, point it to your repo, and set **Main file** to `app.py`.
-4. Click **Deploy** — done! The model weights are downloaded automatically on first boot.
 
 > The app is optimised for Streamlit Cloud's 1 GB RAM limit. The Caffe model is lightweight (~123 MB) and inference is CPU-friendly.
 
@@ -113,6 +107,3 @@ holi-fy/
 
 ---
 
-## 📜 License
-
-MIT — feel free to fork, remix, and share the Holi vibes! 🎉
