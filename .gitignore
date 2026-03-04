@@ -11,13 +11,29 @@ env/
 # Model weights (auto-downloaded at runtime)
 models/
 
+# Temp uploads / user data
+temp/
+
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Streamlit cache
+# Streamlit
 .streamlit/cache/
+.streamlit/secrets.toml
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Misc
+*.log
+.env
